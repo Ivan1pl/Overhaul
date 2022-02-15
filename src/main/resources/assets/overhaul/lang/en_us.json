@@ -1,0 +1,11 @@
+{
+  "item.minecraft.potion.effect.gliding": "Potion of Gliding",
+  "item.minecraft.potion.effect.stickiness": "Potion of Stickiness",
+  "item.minecraft.splash_potion.effect.gliding": "Splash Potion of Gliding",
+  "item.minecraft.splash_potion.effect.stickiness": "Splash Potion of Stickiness",
+  "item.minecraft.lingering_potion.effect.gliding": "Lingering Potion of Gliding",
+  "item.minecraft.lingering_potion.effect.stickiness": "Lingering Potion of Stickiness",
+  "item.overhaul.bat_wing": "Bat wing",
+  "effect.overhaul.gliding": "Gliding",
+  "effect.overhaul.stickiness": "Stickiness"
+}

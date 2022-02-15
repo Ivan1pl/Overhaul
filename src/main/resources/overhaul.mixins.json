@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ivan1pl.overhaul.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "WanderingTraderEntityMixin",
+    "EntityMixin",
+    "BrewingRecipeRegistryMixin"
+  ],
+  "client": [
+    "WanderingTraderEntityMixin",
+    "EntityMixin",
+    "BrewingRecipeRegistryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
