@@ -1,4 +1,8 @@
 {
+  "block.overhaul.saw": "Saw",
+  "container.saw": "Saw",
+  "effect.overhaul.gliding": "Gliding",
+  "effect.overhaul.stickiness": "Stickiness",
   "item.minecraft.potion.effect.gliding": "Potion of Gliding",
   "item.minecraft.potion.effect.stickiness": "Potion of Stickiness",
   "item.minecraft.splash_potion.effect.gliding": "Splash Potion of Gliding",
@@ -6,6 +10,5 @@
   "item.minecraft.lingering_potion.effect.gliding": "Lingering Potion of Gliding",
   "item.minecraft.lingering_potion.effect.stickiness": "Lingering Potion of Stickiness",
   "item.overhaul.bat_wing": "Bat wing",
-  "effect.overhaul.gliding": "Gliding",
-  "effect.overhaul.stickiness": "Stickiness"
+  "stat.overhaul.interact_with_saw": "Interactions with Saw"
 }

@@ -6,12 +6,14 @@
   "mixins": [
     "WanderingTraderEntityMixin",
     "EntityMixin",
-    "BrewingRecipeRegistryMixin"
+    "BrewingRecipeRegistryMixin",
+    "BlocksMixin"
   ],
   "client": [
-    "WanderingTraderEntityMixin",
-    "EntityMixin",
-    "BrewingRecipeRegistryMixin"
+    "client.BlockStateModelGeneratorMixin"
+  ],
+  "server": [
+    "server.BlockLootTableGeneratorMixin"
   ],
   "injectors": {
     "defaultRequire": 1

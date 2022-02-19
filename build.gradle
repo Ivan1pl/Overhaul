@@ -33,6 +33,10 @@ tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
 }
 
+loom {
+	accessWidenerPath = file("src/main/resources/overhaul.accesswidener")
+}
+
 java {
 	withSourcesJar()
 }

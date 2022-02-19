@@ -20,11 +20,15 @@
   "entrypoints": {
     "main": [
       "com.ivan1pl.overhaul.Overhaul"
+    ],
+    "client": [
+      "com.ivan1pl.overhaul.OverhaulClient"
     ]
   },
   "mixins": [
     "overhaul.mixins.json"
   ],
+  "accessWidener": "overhaul.accesswidener",
 
   "depends": {
     "fabricloader": ">=0.12.12",

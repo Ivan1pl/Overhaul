@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "overhaul:block/saw",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "overhaul:block/saw"
+    },
+    "facing=south": {
+      "model": "overhaul:block/saw",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "overhaul:block/saw",
+      "y": 270
+    }
+  }
+}
