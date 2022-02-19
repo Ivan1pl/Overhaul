@@ -7,6 +7,13 @@ favourite ideas from minecraft suggestions reddit, as well as some of my own ide
 
 ### Additions
 
+#### Blocks
+* ![Saw](src/main/resources/assets/overhaul/textures/block/saw_side.png) **Saw** - can be crafted with stone in the
+  middle, iron ingot in the middle slot of the top row, and any kind of wooden slabs in the remaining slots of the
+  bottom two rows. Can be used to cut wood related blocks in smaller and more precise quantities than crafting, and is
+  more efficient than crafting for certain recipes. Drops itself when mined with any kind of axe. Drops nothing when
+  mined with any other tool.
+
 #### Items
 * ![Bat wing](src/main/resources/assets/overhaul/textures/item/bat_wing.png) **Bat wing** - dropped by bats upon death.
   Can be used as potion ingredient. When eaten, restores 1 hunger and 0.2 saturation and applies Poison II effect for
@@ -24,6 +31,15 @@ favourite ideas from minecraft suggestions reddit, as well as some of my own ide
 * **Potion of Stickiness, Splash Potion of Stickiness, Lingering Potion of Stickiness** - brewed by adding Fermented
   Spider Eye to a Potion of Gliding. Gives **Stickiness** status effect. Effect duration can be extended with redstone
   dust. Strength can be increased with glowstone dust.
+
+#### Recipe types
+* **Sawing recipes** - can be used within the new **Saw** block.
+
+#### Sawing recipes
+* Logs, stems, wood and hyphae can be cut into 4 fences, 4 fence gates, 4 planks, 4 signs, 8 slabs, 4 stairs or 4
+  trapdoors of the same type.
+* Planks can be cut into 1 fence, 1 fence gate, 1 sign, 2 slabs, 1 stair or 1 trapdoor of the same type.
+* Logs, stems, wood and hyphae can be cut into their stripped variant.
 
 ### Changes
 
