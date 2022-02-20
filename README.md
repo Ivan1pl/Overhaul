@@ -41,6 +41,12 @@ favourite ideas from minecraft suggestions reddit, as well as some of my own ide
 * Planks can be cut into 1 fence, 1 fence gate, 1 sign, 2 slabs, 1 stair or 1 trapdoor of the same type.
 * Logs, stems, wood and hyphae can be cut into their stripped variant.
 
+#### Villager professions
+* **Carpenter** - uses the new **Saw** block as their workstation. Buys overworld planks and items required to craft
+  their products (Paper, String, Flint, Redstone dust, Iron ingot, Diamond) and sells Wooden Axe, Bowl, Cartography
+  table, Fletching table, Loom, Lectern, Note block, Bookshelf, Smithing table and Jukebox. If a nearby player has the
+  **Hero of the village** status effect, gifts them oak boats and bowls.
+
 ### Changes
 
 #### Loot

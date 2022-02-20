@@ -17,7 +17,9 @@
 package com.ivan1pl.overhaul;
 
 import com.ivan1pl.overhaul.initializers.LootTablesInitializer;
+import com.ivan1pl.overhaul.loot.LootTables;
 import com.ivan1pl.overhaul.recipes.RecipeSerializers;
+import com.ivan1pl.overhaul.villages.TradeOffers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +33,8 @@ public class Overhaul implements ModInitializer {
 		LOGGER.info("Initializing Overhaul...");
 		LootTablesInitializer.initialize();
 		RecipeSerializers.initialize();
+		TradeOffers.initialize();
+		LootTables.initialize();
 		LOGGER.info("Initialized Overhaul!");
 	}
 }
