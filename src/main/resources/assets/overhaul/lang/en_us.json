@@ -11,5 +11,6 @@
   "item.minecraft.lingering_potion.effect.gliding": "Lingering Potion of Gliding",
   "item.minecraft.lingering_potion.effect.stickiness": "Lingering Potion of Stickiness",
   "item.overhaul.bat_wing": "Bat wing",
-  "stat.overhaul.interact_with_saw": "Interactions with Saw"
+  "stat.overhaul.interact_with_saw": "Interactions with Saw",
+  "subtitles.overhaul.saw": "Sawing"
 }

@@ -20,6 +20,7 @@ import com.google.common.collect.Lists;
 import com.ivan1pl.overhaul.blocks.Blocks;
 import com.ivan1pl.overhaul.recipes.RecipeTypes;
 import com.ivan1pl.overhaul.recipes.SawingRecipe;
+import com.ivan1pl.overhaul.sounds.SoundEvents;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.CraftingResultInventory;
@@ -33,7 +34,6 @@ import net.minecraft.screen.ScreenHandlerContext;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.screen.slot.Slot;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -99,7 +99,7 @@ public class SawScreenHandler extends ScreenHandler {
                 context.run((world, pos) -> {
                     long l = world.getTime();
                     if (SawScreenHandler.this.lastTakeTime != l) {
-                        world.playSound(null, pos, /*TODO*/ SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS, 1.0f, 1.0f);
+                        world.playSound(null, pos, SoundEvents.SAW, SoundCategory.BLOCKS, 1.0f, 1.0f);
                         SawScreenHandler.this.lastTakeTime = l;
                     }
                 });

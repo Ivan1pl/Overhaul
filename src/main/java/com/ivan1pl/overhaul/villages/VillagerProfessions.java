@@ -18,9 +18,9 @@ package com.ivan1pl.overhaul.villages;
 
 import com.google.common.collect.ImmutableSet;
 import com.ivan1pl.overhaul.Overhaul;
+import com.ivan1pl.overhaul.sounds.SoundEvents;
 import com.ivan1pl.overhaul.world.poi.PointsOfInterest;
 import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.village.VillagerProfession;
@@ -30,7 +30,7 @@ import net.minecraft.world.poi.PointOfInterestType;
  * Custom villager professions.
  */
 public class VillagerProfessions {
-    public static final VillagerProfession CARPENTER = register("carpenter", PointsOfInterest.CARPENTER, /*TODO*/SoundEvents.ENTITY_VILLAGER_WORK_TOOLSMITH);
+    public static final VillagerProfession CARPENTER = register("carpenter", PointsOfInterest.CARPENTER, SoundEvents.SAW);
 
     /**
      * Register villager profession.
