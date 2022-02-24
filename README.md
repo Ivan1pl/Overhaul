@@ -49,6 +49,9 @@ favourite ideas from minecraft suggestions reddit, as well as some of my own ide
 
 ### Changes
 
+#### Generated structures
+* All types of villages can now generate carpenter's house, containing carpenter's workplace, the **Saw** block.
+
 #### Loot
 * Bats now drop 0-1 bat wings upon death. Upper limit is increased by one for each level of Looting.
 

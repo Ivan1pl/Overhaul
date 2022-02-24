@@ -4,11 +4,17 @@
   "package": "com.ivan1pl.overhaul.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "StructurePoolMixin",
     "WanderingTraderEntityMixin",
     "EntityMixin",
     "BrewingRecipeRegistryMixin",
     "BlocksMixin",
-    "PointOfInterestTypeMixin"
+    "PointOfInterestTypeMixin",
+    "village.PlainsVillageDataMixin",
+    "village.SnowyVillageDataMixin",
+    "village.SavannaVillageDataMixin",
+    "village.DesertVillageDataMixin",
+    "village.TaigaVillageDataMixin"
   ],
   "client": [
     "client.BlockStateModelGeneratorMixin"
