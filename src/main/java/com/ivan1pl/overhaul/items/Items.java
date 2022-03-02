@@ -31,6 +31,7 @@ import net.minecraft.util.registry.Registry;
 public class Items {
     public static final Item BAT_WING = register("bat_wing", new Item(new Item.Settings().group(ItemGroup.BREWING)
             .food(FoodComponents.BAT_WING)));
+    public static final Item HOURGLASS = register(Blocks.HOURGLASS, ItemGroup.REDSTONE);
     public static final Item SAW = register(Blocks.SAW, ItemGroup.DECORATIONS);
 
     /**

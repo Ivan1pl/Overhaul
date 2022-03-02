@@ -26,6 +26,7 @@ public class OverhaulClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         Overhaul.LOGGER.info("Initializing Overhaul client...");
+        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.HOURGLASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Blocks.SAW, RenderLayer.getCutout());
         HandledScreens.initialize();
         Overhaul.LOGGER.info("Initialized Overhaul client!");

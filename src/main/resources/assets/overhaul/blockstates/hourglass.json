@@ -1,0 +1,21 @@
+{
+  "multipart": [
+    { "apply": { "model": "overhaul:block/hourglass" }},
+    { "when": { "time": "0|1|2|3" },
+      "apply": { "model": "overhaul:block/hourglass_sand_bottom_1" } },
+    { "when": { "time": "0|1|2" },
+      "apply": { "model": "overhaul:block/hourglass_sand_bottom_2" } },
+    { "when": { "time": "0|1" },
+      "apply": { "model": "overhaul:block/hourglass_sand_bottom_3" } },
+    { "when": { "time": "0" },
+      "apply": { "model": "overhaul:block/hourglass_sand_bottom_4" } },
+    { "when": { "time": "1|2|3|4" },
+      "apply": { "model": "overhaul:block/hourglass_sand_top_1" } },
+    { "when": { "time": "2|3|4" },
+      "apply": { "model": "overhaul:block/hourglass_sand_top_2" } },
+    { "when": { "time": "3|4" },
+      "apply": { "model": "overhaul:block/hourglass_sand_top_3" } },
+    { "when": { "time": "4" },
+      "apply": { "model": "overhaul:block/hourglass_sand_top_4" } }
+  ]
+}

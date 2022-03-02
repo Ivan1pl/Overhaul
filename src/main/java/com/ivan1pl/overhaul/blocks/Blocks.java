@@ -28,6 +28,7 @@ import net.minecraft.util.registry.Registry;
  * Custom blocks.
  */
 public class Blocks {
+    public static final Block HOURGLASS = register("hourglass", new HourglassBlock(AbstractBlock.Settings.of(Material.GLASS).strength(2.0f).sounds(BlockSoundGroup.GLASS).requiresTool().nonOpaque()));
     public static final Block SAW = register("saw", new SawBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.5f).sounds(BlockSoundGroup.WOOD).requiresTool()));
 
     /**

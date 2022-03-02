@@ -16,6 +16,7 @@
 
 package com.ivan1pl.overhaul;
 
+import com.ivan1pl.overhaul.blocks.entities.BlockEntityTypes;
 import com.ivan1pl.overhaul.initializers.LootTablesInitializer;
 import com.ivan1pl.overhaul.loot.LootTables;
 import com.ivan1pl.overhaul.recipes.RecipeSerializers;
@@ -35,6 +36,7 @@ public class Overhaul implements ModInitializer {
 		RecipeSerializers.initialize();
 		TradeOffers.initialize();
 		LootTables.initialize();
+		BlockEntityTypes.initialize();
 		LOGGER.info("Initialized Overhaul!");
 	}
 }
