@@ -8,11 +8,16 @@ favourite ideas from minecraft suggestions reddit, as well as some of my own ide
 ### Additions
 
 #### Blocks
-* ![Saw](src/main/resources/assets/overhaul/textures/block/saw_side.png) **Saw** - can be crafted with stone in the
+* ![Saw](doc/images/saw.png) **Saw** - can be crafted with stone in the
   middle, iron ingot in the middle slot of the top row, and any kind of wooden slabs in the remaining slots of the
   bottom two rows. Can be used to cut wood related blocks in smaller and more precise quantities than crafting, and is
   more efficient than crafting for certain recipes. Drops itself when mined with any kind of axe. Drops nothing when
   mined with any other tool.
+* ![Hourglass](doc/images/hourglass.png) **Hourglass** - can be crafted with sand in the middle, wooden slabs in top and
+  bottom row and glass blocks on the sides. When placed, appears with the top half filled with sand. The sand will
+  gradually make its way to the bottom half. It takes 5 minutes to completely empty the top half. Can be turned over
+  manually by right clicking, or automatically when it receives a redstone signal. Produces comparator output with
+  between 0 and 4 signal strength, depending on how much sand is left in the top half.
 
 #### Items
 * ![Bat wing](src/main/resources/assets/overhaul/textures/item/bat_wing.png) **Bat wing** - dropped by bats upon death.
