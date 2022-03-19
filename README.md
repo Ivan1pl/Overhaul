@@ -70,3 +70,4 @@ favourite ideas from minecraft suggestions reddit, as well as some of my own ide
 
 * [Wandering traders should have a small chance of selling you a map to rare biomes like Mushroom, Mesa and Jungle.](https://www.reddit.com/r/minecraftsuggestions/comments/htbm63/wandering_traders_should_have_a_small_chance_of/)
 * [If you buy a wandering trader's whole stock, he moves in and becomes a villager.](https://www.reddit.com/r/minecraftsuggestions/comments/nf8edj/if_you_buy_a_wandering_traders_whole_stock_he/)
+* [Add the hourglass, a block to record the passage of time](https://www.reddit.com/r/minecraftsuggestions/comments/lj3b9s/add_the_hourglass_a_block_to_record_the_passage/)
