@@ -40,4 +40,9 @@ public class RecipeTypes {
             }
         });
     }
+
+    /**
+     * Empty static method to force class initialization.
+     */
+    public static void init() {}
 }

@@ -65,7 +65,7 @@ public class SellBiomeMapFactory implements TradeOffers.Factory {
             return null;
         }
         BlockPos blockPos = getRandomPosition(serverWorld, entity.getBlockPos(), random);
-        String translationKey = serverWorld.getBiomeKey(blockPos)
+        String translationKey = serverWorld.getBiome(blockPos).getKey()
                 .map(b -> "biome." + b.getValue().getNamespace() + "." + b.getValue().getPath()).orElseThrow();
         ItemStack itemStack = FilledMapItem.createMap(serverWorld, blockPos.getX(), blockPos.getZ(), (byte)2, true, true);
         FilledMapItem.fillExplorationMap(serverWorld, itemStack);

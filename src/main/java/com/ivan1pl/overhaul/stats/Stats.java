@@ -39,4 +39,9 @@ public class Stats {
         net.minecraft.stat.Stats.CUSTOM.getOrCreateStat(identifier, formatter);
         return identifier;
     }
+
+    /**
+     * Empty static method to force class initialization.
+     */
+    public static void init() {}
 }

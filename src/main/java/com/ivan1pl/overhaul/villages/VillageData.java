@@ -26,6 +26,7 @@ import net.minecraft.structure.processor.StructureProcessorList;
 import net.minecraft.structure.processor.StructureProcessorLists;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
+import net.minecraft.util.registry.RegistryEntry;
 
 import java.util.function.Function;
 
@@ -40,9 +41,9 @@ public class VillageData {
      * @return projection to pool element function
      */
     private static Function<StructurePool.Projection, LegacySinglePoolElement> of(String id,
-                                                                                  StructureProcessorList processors) {
+                                                                                  RegistryEntry<StructureProcessorList> processors) {
         return projection ->
-                new LegacySinglePoolElement(Either.left(new Identifier(Overhaul.ID, id)), () -> processors, projection);
+                new LegacySinglePoolElement(Either.left(new Identifier(Overhaul.ID, id)), processors, projection);
     }
 
     /**
@@ -51,7 +52,8 @@ public class VillageData {
      * @param houseId house identifier
      * @param processors processors
      */
-    public static void addCustomHouse(String villageType, String houseId, StructureProcessorList processors) {
+    public static void addCustomHouse(String villageType, String houseId,
+                                      RegistryEntry<StructureProcessorList> processors) {
         ((StructurePoolModifier) BuiltinRegistries.STRUCTURE_POOL
                 .get(new Identifier("village/" + villageType + "/houses")))
                 .add(Pair.of(of("village/" + villageType + "/houses/" + houseId, processors), 2),

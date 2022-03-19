@@ -10,6 +10,8 @@
     "BrewingRecipeRegistryMixin",
     "BlocksMixin",
     "PointOfInterestTypeMixin",
+    "RecipeTypeMixin",
+    "StatsMixin",
     "village.PlainsVillageDataMixin",
     "village.SnowyVillageDataMixin",
     "village.SavannaVillageDataMixin",

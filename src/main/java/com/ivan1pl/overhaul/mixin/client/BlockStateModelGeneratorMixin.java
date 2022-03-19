@@ -17,7 +17,11 @@
 package com.ivan1pl.overhaul.mixin.client;
 
 import com.ivan1pl.overhaul.blocks.Blocks;
-import net.minecraft.data.client.model.*;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.data.client.BlockStateVariant;
+import net.minecraft.data.client.ModelIds;
+import net.minecraft.data.client.VariantSettings;
+import net.minecraft.data.client.VariantsBlockStateSupplier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -32,7 +36,7 @@ public class BlockStateModelGeneratorMixin {
      * Register custom block state suppliers.
      * @param callbackInfo callback info
      */
-    @Inject(method = "Lnet/minecraft/data/client/model/BlockStateModelGenerator;register()V", at = @At("TAIL"))
+    @Inject(method = "Lnet/minecraft/data/client/BlockStateModelGenerator;register()V", at = @At("TAIL"))
     private void registerCustom(CallbackInfo callbackInfo) {
         registerSaw();
     }
